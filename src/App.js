@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import GsapFirstAnimation from './components/GsapFirstAnimations';
+import GsapImageReveal from './components/GsapImageReveal';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <GsapFirstAnimation />
+      <GsapImageReveal />
     </div>
   );
 }
